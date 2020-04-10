@@ -14,7 +14,7 @@ Public API with a selection of roller coasters around the world => https://coast
 | GET         	| /year/:year 	| Matching `year` records on JSON format 	| <a href="https://coasters-api.herokuapp.com/year/2005" target="_blank">Link</a> 	|
 | GET         	| /park/:park 	| Matching `park` records on JSON format 	| <a href="https://coasters-api.herokuapp.com/park/PortAventura%20Park" target="_blank">Link</a> 	|
 
-## JSON response format
+## JSON response
 
 | Property 	| Data type      	| 
 |-------------	|---------------	|
@@ -30,3 +30,29 @@ Public API with a selection of roller coasters around the world => https://coast
 | `year`         	| Number             	| 
 | `type`         	| Array             	| 
 | `model`         	| String             	| 
+
+
+```json
+{
+    "length": 1564,
+    "height": 75,
+    "speed": 134,
+    "inversions": 0,
+    "gForce": 3.8,
+    "country": "Spain",
+    "year": 2012,
+    "type": [
+      "Roller Coaster",
+      "Steel",
+      "Sit Down",
+      "Extreme"
+    ],
+    "_id": "5e8ef56a60fa824d1e2db3d9",
+    "name": "Shambhala",
+    "park": "PortAventura Park",
+    "model": "Hyper Coaster",
+    "createdAt": "2020-04-09T10:14:02.718Z",
+    "updatedAt": "2020-04-09T10:14:02.718Z",
+    "__v": 0
+  }
+```
