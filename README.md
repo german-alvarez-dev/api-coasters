@@ -16,22 +16,6 @@ Public API with a selection of roller coasters around the world => https://coast
 
 ## JSON response
 
-| Property 	| Data type      	| 
-|-------------	|---------------	|
-| `_id`         	| String             	| 
-| `name`         	| String             	| 
-| `park`         	| String             	| 
-| `length`         	| Number             	| 
-| `height`         	| Number             	| 
-| `speed`         	| Number             	| 
-| `inversions`         	| Number             	| 
-| `gForce`         	| Float             	| 
-| `country`         	| String             	| 
-| `year`         	| Number             	| 
-| `type`         	| Array             	| 
-| `model`         	| String             	| 
-
-
 ```json
 {
     "length": 1564,
@@ -56,3 +40,19 @@ Public API with a selection of roller coasters around the world => https://coast
     "__v": 0
   }
 ```
+
+## JSON data types
+| Property 	| Data type      	| 
+|-------------	|---------------	|
+| `_id`         	| String             	| 
+| `name`         	| String             	| 
+| `park`         	| String             	| 
+| `length`         	| Number             	| 
+| `height`         	| Number             	| 
+| `speed`         	| Number             	| 
+| `inversions`         	| Number             	| 
+| `gForce`         	| Float             	| 
+| `country`         	| String             	| 
+| `year`         	| Number             	| 
+| `type`         	| Array             	| 
+| `model`         	| String             	| 
