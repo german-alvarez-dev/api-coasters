@@ -14,7 +14,7 @@ Public API with a selection of roller coasters around the world => https://coast
 | GET         	| /year/:year 	| Matching `year` records on JSON format 	| <a href="https://coasters-api.herokuapp.com/year/2005" target="_blank">Link</a> 	|
 | GET         	| /park/:park 	| Matching `park` records on JSON format 	| <a href="https://coasters-api.herokuapp.com/park/PortAventura%20Park" target="_blank">Link</a> 	|
 
-## JSON response
+## JSON response format
 
 ```json
 {
@@ -41,7 +41,7 @@ Public API with a selection of roller coasters around the world => https://coast
   }
 ```
 
-## JSON data types
+## JSON response data types
 | Property 	| Data type      	| 
 |-------------	|---------------	|
 | `_id`         	| String             	| 
