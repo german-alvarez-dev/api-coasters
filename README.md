@@ -2,6 +2,8 @@
 
 Public API with a selection of roller coasters around the world => https://coasters-api.herokuapp.com/
 
+All measurements based on the metric system. 
+
 ## Endpoints
 
 | HTTP Method 	| URI path      	| Description                                    	| Example 	|
